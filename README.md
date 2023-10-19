@@ -9,9 +9,17 @@
 * PHP Language
 * C Language
 
-## Requirements:
+#### Requirements:
 
 * MySQL Adapter on both PHP and C Language
+* Composer via https://getcomposer.org
+
+#### How to Deploy:
+
+```php
+Require_Once($_SERVER["DOCUMENT_ROOT"].("/vendor/autoload.php"));
+use \chartql\core as chart;
+```
 
 #### Infographics:
 
